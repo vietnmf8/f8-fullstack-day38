@@ -27,7 +27,7 @@ function Countdown() {
             setCount((prev) => {
                 if (prev <= 1) {
                     stopCountdown(); // Dừng bộ đếm
-                    return 0; // Trả về giá trị cuối cùng
+                    return 0; // Trả về giá trị cuối
                 }
                 return prev - 1;
             });
