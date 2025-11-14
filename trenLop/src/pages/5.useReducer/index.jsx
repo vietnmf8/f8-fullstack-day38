@@ -5,6 +5,7 @@ import { DECREASE, INCREASE } from "./consts";
 
 function UseReducer() {
     const [count, dispatch] = useReducer(reducer, 0);
+    console.log(count);
 
     return (
         <div>
