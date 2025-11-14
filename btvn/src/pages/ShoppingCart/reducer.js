@@ -4,7 +4,7 @@ import {
     UPDATE_QUANTITY,
     CLEAR_CART,
     LOAD_CART_FROM_STORAGE,
-} from "./consts.js";
+} from "@/contexts/CartContext/consts";
 
 /* Hàm tính toán tổng số lượng và tổng giá tiền */
 const calculateTotals = (items) => {

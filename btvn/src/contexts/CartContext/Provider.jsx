@@ -1,7 +1,7 @@
 import React, { useEffect, useReducer } from "react";
 import CartContext from "./Context";
 import PropTypes from "prop-types";
-import { cartReducer, initialState } from "./reducer";
+import { cartReducer, initialState } from "@/pages/ShoppingCart/reducer.js";
 import {
     ADD_TO_CART,
     CART_STORAGE_KEY,
