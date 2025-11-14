@@ -1,11 +1,13 @@
 import { Outlet } from "react-router";
 import React from "react";
 import MainHeader from "@/components/MainHeader";
+import Header from "@/components/Header";
 
 function DefaultLayout() {
     return (
         <div className="min-h-screen flex flex-col">
-            <MainHeader />
+            <Header/>
+            
             <main className="grow">
                 <Outlet />
             </main>

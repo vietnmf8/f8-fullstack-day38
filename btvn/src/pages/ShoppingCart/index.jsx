@@ -1,3 +1,4 @@
+import MainHeader from "@/components/MainHeader";
 import ProductCard from "@/components/ProductCard";
 import React, { useEffect, useState } from "react";
 
@@ -32,6 +33,7 @@ function ShoppingCart() {
 
     return (
         <div className="container mx-auto p-4">
+            <MainHeader />
             <h1 className="text-3xl font-bold mb-6">Products</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {products.map((product) => (

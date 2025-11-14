@@ -11,6 +11,7 @@ const routes = [
             { path: paths.counter, component: Counter },
             { path: paths.countdown, component: CountDown },
             { path: paths.shoppingCart, component: ShoppingCart },
+            { path: paths.home, component: ShoppingCart },
         ],
     },
 ];
